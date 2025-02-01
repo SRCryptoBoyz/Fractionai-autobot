@@ -23,7 +23,7 @@ Buy $ETH on Sepolia if need so much ETH Sepolia: [Here](https://testnetbridge.co
 
 You'll need a significant amount of $ETH on Sepolia, as this testnet involves battles that depend on your $ETH balance.
 
-## PREREQUISITE
+## NEED
 
 - Git
 - Node JS
