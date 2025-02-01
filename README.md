@@ -1,2 +1,7 @@
 # Fractionai-autobot
-BOT FEATURE  - Multi Account  - Support PK - Proxy Support - Agent Matchmarking Automation
+BOT FEATURE  
+
+- Multi Account
+- Support PK
+- Proxy Support
+- Agent Matchmarking Automation
