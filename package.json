@@ -1,5 +1,5 @@
 {
-  "name": "Fractionai-autobot",
+  "name": "fractionai-auto-bot",
   "version": "1.0.0",
   "type": "module",
   "description": "Fraction AI Auto Bot",
@@ -18,15 +18,14 @@
     "fract-ai",
     "airdropinsiders"
   ],
-  "author": "SRCryptoBoyz",
+  "author": "AirdropInsiders",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SRCryptoBoyz/Fractionai-autobot.git"
+    "url": "git+https://github.com/airdropinsiders/FractionAi-Auto-Bot.git"
   },
   "dependencies": {
     "bip39": "^3.1.0",
-    "chalk": "^5.4.1",
     "ethers": "^6.13.2",
     "https-proxy-agent": "^7.0.5",
     "moment-timezone": "^0.5.45",
