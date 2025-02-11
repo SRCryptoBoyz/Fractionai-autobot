@@ -1,4 +1,3 @@
-import chalk from "chalk";
 import { privateKey } from './accounts/accounts.js';
 import _0x1d5b89 from './src/core/core.js';
 import { Helper } from './src/utils/helper.js';
@@ -57,7 +56,7 @@ async function startBot() {
     _0x48b9c7.info("Application Started");
     console.log();
     console.log(Helper.botName);
-    console.log(chalk.cyan("===========☬ FRACTIONAI AUTOBOT ☬==========="));
+    console.log("");
     await startBot();
   } catch (_0x41f961) {
     _0x3596ce.clear();
