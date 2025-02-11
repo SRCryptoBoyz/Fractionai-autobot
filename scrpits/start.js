@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import chalk from "chalk"; // Import chalk untuk pewarnaan teks
 
 async function copyFolder(src, dest) {
   try {
@@ -18,9 +17,9 @@ async function copyFolder(src, dest) {
       }
     }
 
-    console.log(chalk.green(`✔ Copied ${src} to ${dest}`));
+    console.log(`Copied ${src} to ${dest}`);
   } catch (err) {
-    console.error(chalk.red(`✖ Error copying folder from ${src} to ${dest}:`), err);
+    console.error(`Error copying folder from ${src} to ${dest}:`, err);
   }
 }
 
@@ -33,6 +32,6 @@ const configDest = path.join(process.cwd(), "app", "config");
   await copyFolder(accountsSrc, accountsDest);
   await copyFolder(configSrc, configDest);
 
-  console.log(chalk.cyan("🚀 Starting the app..."));
+  console.log("Starting the app...");
   await import("../app/index.js");
 })();
